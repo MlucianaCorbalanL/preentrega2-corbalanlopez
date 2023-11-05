@@ -1,0 +1,115 @@
+a.navbar-brand{
+    color: rgb(230, 162, 60) !important;
+} 
+
+.navbar{ 
+    background-color: blanchedalmond;
+ }
+ 
+ 
+ .nav-link{
+    color: rgb(230, 162, 60)!important;
+ }
+  #carouselwithcontrols{
+    width: 100px;
+    overflow: hidden;
+ }
+
+  .carousel-item img {
+    width: 100%; 
+    height: auto; 
+ }
+    
+ .jumbotrom{
+     height: 450px;
+     background-image:url(mixed\ berries.jpg) ;
+     background-size: cover;
+     background-position:center ;
+ }
+ h1{
+     color: rgb(230, 162, 60);
+ }
+ 
+ .jumbotrom p{
+     color: rgb(230, 162, 60);
+ }
+ 
+ h2{
+     text-align: center;
+     background-color: blanchedalmond;
+     padding: 15px;
+     color: rgb(230, 162, 60);
+     margin-bottom: 0;
+ } 
+a{
+    color: rgb(116, 74, 12);
+    text-decoration: none;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjetas {
+    text-decoration: none;
+    color: #000;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    transition: transform 0.3s;
+    flex: auto;
+}
+
+.tarjetas:hover {
+    transform: scale(1.05);
+}
+
+.tarjetas article {
+    text-align: center;
+}
+
+.card-img {
+    font-size: 40px;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.card-desc {
+    font-size: 14px;
+}
+
+ .productos article{
+     background-color: rgb(247, 226, 195);
+     border: 3px solid beige;
+     text-align: center;
+ }
+ 
+ .productos .card-img{
+     font-size: 35px;
+ }
+ .productos .card-desc{
+     color: rgb(230, 162, 60);
+ }
+ 
+ footer{
+     text-align: center;
+     background-color: blanchedalmond;
+     color:rgb(230, 162, 60) ;
+     padding: px;
+     text-transform: uppercase;
+     font-size: 25px;
+     margin-bottom: 0;
+ }
+ 
+ footer a{
+     color: rgb(230, 162, 60);
+     text-decoration: none;
+     font-size: 45px;
+     letter-spacing:15px ;
+ 
+ }
