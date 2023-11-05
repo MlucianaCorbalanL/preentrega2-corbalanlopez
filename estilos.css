@@ -10,7 +10,7 @@ a.navbar-brand{
  .nav-link{
     color: rgb(230, 162, 60)!important;
  }
-  #carouselwithcontrols{
+   #carouselwithcontrols{
     width: 100px;
     overflow: hidden;
  }
@@ -26,14 +26,19 @@ a.navbar-brand{
      background-size: cover;
      background-position:center ;
  }
- h1{
+ h5{
      color: rgb(230, 162, 60);
+     text-align: center;
  }
  
+ .card-text{
+    color: rgb(230, 162, 60);
+    text-align: justify;
+ }
+
  .jumbotrom p{
      color: rgb(230, 162, 60);
  }
- 
  h2{
      text-align: center;
      background-color: blanchedalmond;
@@ -46,6 +51,16 @@ a{
     text-decoration: none;
 }
 
+.card-list {
+    list-style-type: circle; 
+}
+
+.card-list li {
+    margin-bottom: 10px; 
+    font-size: 16px; 
+    
+color: rgb(230, 162, 60); 
+}
 .productos {
     display: flex;
     flex-wrap: wrap;
@@ -54,7 +69,7 @@ a{
 
 .tarjetas {
     text-decoration: none;
-    color: #000;
+    color: rgb(116, 74, 12);
     margin: 10px;
     border-radius: 5px;
     padding: 10px;
@@ -81,6 +96,7 @@ a{
 
 .card-desc {
     font-size: 14px;
+    text-align:center;
 }
 
  .productos article{
@@ -94,13 +110,14 @@ a{
  }
  .productos .card-desc{
      color: rgb(230, 162, 60);
+     text-align: center;
  }
  
  footer{
      text-align: center;
      background-color: blanchedalmond;
      color:rgb(230, 162, 60) ;
-     padding: px;
+     padding: 30px;
      text-transform: uppercase;
      font-size: 25px;
      margin-bottom: 0;
